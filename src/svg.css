@@ -1,0 +1,25 @@
+svg {
+    background-color: #ffffff;
+  }
+  .link line {
+    stroke: rgb(253, 253, 255);
+    stroke-width: 3px;
+  }
+  .link text {
+    fill: black;
+    font: normal 8px Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    text-anchor: middle;
+  }
+  .nodes circle {
+    pointer-events: all;
+    fill: red;
+    stroke: gold;
+    stroke-width: 3px;
+  }
+  .nodes text {
+    pointer-events: none;
+    font: bold 10px sans-serif;
+    color: white;
+  }
+  
